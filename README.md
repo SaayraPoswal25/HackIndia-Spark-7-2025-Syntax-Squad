@@ -132,6 +132,10 @@ brain-tumor-prediction/
 ├── README.md
 └── requirements.txt
 
+DEMO VIDEO:
+1. https://drive.google.com/file/d/1wA_OXGDC3yO5ea9oaK3ymCtjwLDjin74/view?usp=drive_link
+2. https://drive.google.com/file/d/1wBMwbRP98DGLGC17JzOY42-DNXvibyIm/view?usp=drive_link
+
 Contributing
 Contributions are welcome! Please follow these steps:
 
