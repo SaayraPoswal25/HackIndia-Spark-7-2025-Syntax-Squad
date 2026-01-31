@@ -1,7 +1,8 @@
-# HackIndia-Spark-7-2025-Syntax-Squad
+# Hospintel - Hospital Intelligence Platform
 
-Brain Tumor Prediction System
-This project is a full-stack application for brain tumor prediction using MRI scans. It consists of a React frontend for uploading and analyzing images, a FastAPI backend for serving a machine learning model, and a Streamlit application for fine-tuning the model.
+## Secure Federated Learning for Medical Imaging
+
+Hospintel is a professional healthcare AI platform that leverages federated learning to enable secure, privacy-preserving brain tumor detection. The system consists of a modern React dashboard for real-time monitoring, a FastAPI backend for secure model aggregation, and a Streamlit interface for authorized medical professionals to fine-tune AI models.
 Table of Contents
 
 Overview
@@ -14,7 +15,8 @@ Contributing
 License
 
 Overview
-The system allows users to upload brain MRI images to detect tumors (glioma, meningioma, pituitary, or no tumor) using a pre-trained TensorFlow/Keras model. The React frontend provides a user-friendly interface for image uploads and result visualization. The FastAPI backend handles predictions, and the Streamlit app enables authenticated users to fine-tune the model with new images.
+
+Hospintel (Hospital + Intelligence) is an enterprise-grade federated learning platform designed for healthcare institutions. The system enables secure, decentralized AI model training for brain tumor detection (glioma, meningioma, pituitary, or no tumor) while ensuring 100% patient data privacy. Medical professionals can monitor federated learning rounds in real-time through an intuitive dashboard, while authorized personnel can fine-tune models using the secure Streamlit interface.
 Features
 
 Image Upload and Prediction: Upload PNG/JPEG images and receive tumor predictions with confidence scores.
@@ -26,10 +28,11 @@ CORS Support: Backend allows cross-origin requests from the frontend.
 
 Tech Stack
 
-Frontend: React, TypeScript, Tailwind CSS, Lucide Icons
-Backend: FastAPI, TensorFlow/Keras, Python
-Fine-Tuning Interface: Streamlit, Python
-Dependencies: numpy, PIL, requests, uvicorn
+**Frontend Dashboard**: React 18, TypeScript, Tailwind CSS v3, Recharts, Framer Motion, Lucide Icons
+**Backend Server**: FastAPI, TensorFlow/Keras, Python, Cryptography (RSA + AES)
+**Fine-Tuning Interface**: Streamlit, Python
+**ML Framework**: TensorFlow/Keras with VGG16 architecture
+**Security**: Hybrid encryption (RSA-2048 + AES-256), Federated Averaging (FedAvg)
 
 Installation
 Prerequisites

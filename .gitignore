@@ -22,3 +22,47 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.venv/
+venv/
+ENV/
+env/
+
+# Model files (large binary files)
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+*.pb
+*.onnx
+
+# Encryption keys (SECURITY - DO NOT COMMIT)
+**/keys/private_key.pem
+**/keys/*.pem
+*.pem
+!**/keys/public_key.pem.example
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+*.iml
